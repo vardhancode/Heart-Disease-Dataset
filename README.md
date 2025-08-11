@@ -1,2 +1,4 @@
 # Heart-Disease-Dataset
-Worked on the Heart Disease Dataset to train a Decision Tree Classifier and a Random Forest Classifier
+Using the Heart Disease dataset, we built and compared two models — a Decision Tree Classifier and a Random Forest Classifier. We began by loading and preprocessing the data (handling missing/invalid values, encoding categorical features), then splitting into training and testing sets. First, we trained a baseline Decision Tree, visualized its full structure, and analyzed overfitting by varying max_depth and observing train/test accuracy trends. 
+
+After tuning parameters to improve generalization, we trained a Random Forest, which aggregates many decision trees to reduce overfitting and improve accuracy. We compared both models’ performances, interpreted feature importances to understand which variables most influence predictions, and finally applied cross-validation for a more robust estimate of model performance. This process gave us both an interpretable single-tree model and a more accurate ensemble model, along with clear insight into the key factors linked to heart disease in the dataset.
